@@ -1,0 +1,84 @@
+:root {
+    --btn-color: #AA9ABA;   /* χρώμα πλήκτρων */
+    --btn-text: whitesmoke;   /* χρώμα κειμένου πλήκτρων */
+    --msg-win-color: rgb(0, 128, 32);  /* χρώμα μηνύματος επιτυχίας */
+    --msg-wrong-color: crimson;  /* χρώμα μηνύματος αποτυχίας */
+    --msg-text:floralwhite;  /* χρώμα κειμένου μηνύματος */
+	--low-high-color: gray;  /* χρώμα ιστορικού προσπαθειών */
+
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+body::before {
+	content:"";
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+	background: linear-gradient(to bottom, #A682FF,  #715AFF) ;
+}
+
+.container {
+    position: relative;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 50px 10px;
+    width: 300px;
+
+}
+
+#guess {
+    font-weight: bold;
+    margin: 1%;
+    padding: 1%;
+}
+
+#check, #restart {
+    background-color: var(--btn-color);
+    border-radius: 5px;
+    padding: 2%;
+    margin: 1%;
+    text-align: center;
+    color: whitesmoke;
+    border: none;
+}
+
+#check {
+    position: relative;
+}
+
+#restart {
+    position: inherit;
+}
+
+#check:hover, #restart:hover {
+    background-color: whitesmoke;
+    color: black;
+    transition: 0.7s;
+}
+
+#message, #noOfGuesses, #prevNums {
+    margin: 2%;
+}
+
+
+
+
+
+
+
