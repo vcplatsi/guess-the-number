@@ -1,10 +1,6 @@
 :root {
     --btn-color: #AA9ABA;   /* χρώμα πλήκτρων */
     --btn-text: whitesmoke;   /* χρώμα κειμένου πλήκτρων */
-    --msg-win-color: rgb(0, 128, 32);  /* χρώμα μηνύματος επιτυχίας */
-    --msg-wrong-color: crimson;  /* χρώμα μηνύματος αποτυχίας */
-    --msg-text:floralwhite;  /* χρώμα κειμένου μηνύματος */
-	--low-high-color: gray;  /* χρώμα ιστορικού προσπαθειών */
 
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
 
